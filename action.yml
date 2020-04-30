@@ -3,7 +3,7 @@ description: 'Obfuscate JS files'
 inputs:
   domain-lock:  # id of input
     description: 'domain (ex: example.com)/(ex: .example.com for wildcard)'
-    required: true
+    required: false
     default: []
 runs:
   using: 'node12'
