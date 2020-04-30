@@ -4,7 +4,7 @@ inputs:
   domain-lock:  # id of input
     description: 'domain (ex: example.com)/(ex: .example.com for wildcard)'
     required: true
-    default: '[]'
+    default: []
 runs:
   using: 'node12'
   main: 'index.js'
