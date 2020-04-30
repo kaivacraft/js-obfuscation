@@ -1,0 +1,21 @@
+{
+  "name": "js-obfuscator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "obfuscate": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.2.1",
+    "@actions/github": "^2.0.1",
+    "glob": "^7.1.6",
+    "javascript-obfuscator": "^0.27.2"
+  }
+}
